@@ -1,0 +1,39 @@
+blockquote {
+    padding: 0.25em 40px;
+    margin: 1.5em 10px;
+    font-size: 18px;
+}
+
+blockquote p {
+    display: inline;
+}
+
+/* Hide the vertical bar on the left */
+.post-content blockquote {
+    border-inline-start: 0px;
+}
+
+/* Double-quote mark as opening glyph */
+blockquote:before {
+  content: "\201C";
+  /* content: open-quote; */
+  font-size: 3em;
+  line-height: 0.1em;
+  margin-right: 0.05em;
+  vertical-align: -0.4em;
+  /* padding-left: 0.25em; */
+}
+
+/* Customize the <cite> tag */
+blockquote cite:before {
+    content: "\2014 \2009";
+}
+
+blockquote cite {
+    margin-top: 9px;
+}
+
+/* Display <cite> on a new line, not on the same paragraph of the quote itself */
+blockquote p cite {
+    display: block;
+}

@@ -1,0 +1,13 @@
+/* Fonts customizations. Check LICENSE.md for details on the licensing of the font software */
+
+body {
+    font-family: var(--default-font);
+    font-size: 20px;
+    line-height: 1.6;
+    word-break: break-word;
+    background: var(--theme);
+}
+
+code {
+    font-family: var(--monospace-font);
+}
